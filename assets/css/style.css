@@ -58,7 +58,7 @@ ul a{
     width: auto;
 }
 
-.icons {
+.icons{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -73,19 +73,19 @@ ul a{
     
 }
 
-.row.product-grid {
+.row.product-grid{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
 
-.col.product-card {
+.col.product-card{
     width: calc(33% - 13px);
     margin-bottom: 30px;
 }
 
-.img-container {
+.img-container{
     position: relative;
     width: 80%;
     height: 660px;
@@ -93,7 +93,7 @@ ul a{
 
 }
 
-.img-container img {
+.img-container img{
     width: 100%;
     height: 100%;
     transition: 0.2s;
@@ -101,4 +101,39 @@ ul a{
     object-fit: cover;
     top: 0;
     left: 0;
+}
+
+.img-1{
+    opacity: 1;
+}
+
+.img-2{
+    opacity: 0;
+}
+.img-container:hover .img-2{
+    opacity: 1;
+}
+.heart-2{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: white;
+    padding: 6px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.heart-2:hover i{
+    color: red;
+}
+
+.discount, .tag{
+    position: absolute;
+}
+.discount{
+    bottom: 35px;
+    left: 0;
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    font-size: 15px;
 }
