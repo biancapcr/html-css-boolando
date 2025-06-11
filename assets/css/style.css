@@ -79,8 +79,7 @@ ul a{
 }
 
 .col.product-card{
-    width: calc((100% - 80px) / 3);
-    box-sizing: border-box;
+ width: calc((100% - 40px) / 3);
 }
 .img-container{
     position: relative;
