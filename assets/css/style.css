@@ -166,3 +166,42 @@ ul a{
 }
 
 /* Footer */
+.footer{
+  background-color: #1A1A1A;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: flex-start;
+  font-size: 14px;
+  border-bottom: white 1px solid;
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.boolando{
+  font-weight: bold;
+}
+
+.links a{
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer-right {
+  text-align: right;
+}
+.text{
+    display: block;
+  margin-bottom: 8px;
+}
+
+.icons i{
+  margin-left: 8px;
+  font-size: 18px;
+  color: white;
+}
