@@ -126,14 +126,22 @@ ul a{
     color: red;
 }
 
-.discount, .tag{
-    position: absolute;
-}
 .discount{
-    bottom: 35px;
-    left: 0;
+    
     background-color: red;
     color: white;
-    padding: 5px 8px;
+    padding: 4px 7px;
     font-size: 15px;
+}
+.tag{
+   
+    background-color: green;
+    color: white;
+    padding: 4px 7px;
+    font-size: 15px;
+}
+.badges{
+    position: absolute;
+    gap: 3px;
+    bottom: 50px;
 }
